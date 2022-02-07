@@ -1,7 +1,12 @@
 import './App.css';
+import CheckMetarial from './selectCheckBox/CheckMetarial';
 
 function App() {
-  return <div>Hi</div>;
+  return (
+    <div className="wrapper">
+      <CheckMetarial />
+    </div>
+  );
 }
 
 export default App;
