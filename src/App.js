@@ -1,10 +1,9 @@
-import './App.css';
-import CheckMetarial from './selectCheckBox/CheckMetarial';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="wrapper">
-      <CheckMetarial />
+      <Main />
     </div>
   );
 }
